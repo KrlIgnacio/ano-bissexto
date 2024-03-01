@@ -1,0 +1,18 @@
+h1{
+    color: rgb(176, 16, 220);
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(15, 14, 14);
+}
+.center-form{
+    position: relative;
+    min-height: 100vh;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: x-large;
+}
